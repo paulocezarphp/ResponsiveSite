@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/11/2017, 21:59:50
+    Author     : paulo
+*/
+
+@media screen and (min-width: 500px) {
+
+body{
+    
+    background:#f2f2f2;
+    color:#555555;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    letter-spacing:0.5px;
+    overflow-x: hidden;
+    
+}
+
+#centro{
+    position:absolute;
+    left:50%;
+    top:100px;
+    width:450px;
+    margin-left:-255px;
+}
+
+nav{
+    
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding:10px 0px;
+    background:#222222;
+    width: 100%;
+    
+}
+
+a{
+    
+    text-decoration:none; 
+        
+}
+
+h1{
+    font-size:28px;
+}
+
+.link{
+    
+    color:#99cc00;
+    padding:0px 15px;
+    cursor:pointer;
+    font-size:14px;
+    
+}
+
+.link:hover{
+    
+    color:#739900;
+    
+}
+
+.linkLateral{
+ 
+    color:#739900;
+    cursor:pointer;
+    font-size: 14px;
+        
+}
+
+.linkLateral:hover{
+    
+    color:#4d6600;
+    
+}
+
+#esquerda{
+    
+    width:470px;
+    background:#f2f2f2;
+    padding:20px 20px;
+    font-size: 16px;
+    text-align:justify;
+    
+}
+
+#direita{
+    
+    margin:0px 5px;
+    width:450px;
+    background:#f2f2f2;
+    padding:20px;
+    text-align: center;
+    display: none;
+}
+
+h1{
+    
+    color:#739900;
+    
+}
+
+h4{
+    
+    color:#263300;
+    
+}
+
+.imagens{
+    
+    width:100%;
+    height:50%;
+    
+}
+
+}
